@@ -1,10 +1,10 @@
-n = int(input("Enter a number: "))
+n = int(input("Enter un nombre: "))
 premier = True
 for diviseur in range(2, n):
     reste  = n % diviseur
     if reste == 0:
-        print(n, "is not a prime number", diviseur)
+        print(n, "ce n'est pas un monbre premier", diviseur)
         premier = False
 
 if premier:
-    print(n, "is a prime number")
+    print(n, "c'est un nombre premier")
